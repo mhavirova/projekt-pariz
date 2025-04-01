@@ -37,7 +37,9 @@ h3 {
 
 .Perex {
     font-size: 24px;
-    color: #808080
+    color: #808080;
+    font-style: italic;
+    text-align: center;
 
 }
 
@@ -46,8 +48,40 @@ header {
     background-color: white;
     max-width: 900px;
     padding: 30px 50px 30px 50px;
-    margin: 20px 0 20px 0;
+    margin-block: 20px;
+    border-radius: 12px;
+    margin-inline: auto;
+}
+
+.pariz {
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.eiffelovka,
+.louvre {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 300px;
+    height: 225px;
     border-radius: 8px;
 }
 
-.pariz
+.oblouk,
+.montmartre {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 300px;
+    height: 225px;
+    border-radius: 8px;
+}
+
+.zahrady {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+}
