@@ -2,5 +2,52 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
+background-color: #cde4f9;
+font-size: 20px;
+font-family: "Source Sans 3", sans-serif;
+line-height: 1.4;
+}
+
+h1, 
+h2, 
+h3 {
+font-family: "Playfair Display", serif;
+line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #dc6aa1;
+    margin-top: 48px;
+}
+
+.Autor {
+    text-align: center;
+    color: #dc6aa1;
+}
+
+.Perex {
+    font-size: 24px;
+    color: #808080
 
 }
+
+section,
+header {
+    background-color: white;
+    max-width: 900px;
+    padding: 30px 50px 30px 50px;
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+}
+
+.pariz
